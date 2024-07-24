@@ -1,3 +1,4 @@
 {
-  "dbt.enableNewLineagePanel": false
+  "dbt.enableNewLineagePanel": true,
+  "dbt.perspectiveTheme": "Pro Dark"
 }
