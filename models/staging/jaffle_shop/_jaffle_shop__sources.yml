@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: til_portfolio_projects
+    schema: jaffle_shop
+    tables:
+      - name: cust
+        identifier: customers
+      - name: orders
+        identifier: orders

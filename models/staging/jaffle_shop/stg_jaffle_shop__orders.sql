@@ -4,4 +4,4 @@ select
     order_date,
     status
 
-from TIL_PORTFOLIO_PROJECTS.JAFFLE_SHOP.ORDERS
+from {{ source('jaffle_shop','orders') }}

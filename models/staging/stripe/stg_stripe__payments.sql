@@ -6,4 +6,4 @@ select
     amount / 100 as amount,
     status
 
-from TIL_PORTFOLIO_PROJECTS.STRIPE.PAYMENT
+from {{ source('stripe','payments') }}

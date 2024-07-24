@@ -3,5 +3,5 @@ select
     first_name,
     last_name
     
-from TIL_PORTFOLIO_PROJECTS.JAFFLE_SHOP.CUSTOMERS
+from {{ source('jaffle_shop','cust') }}
     
