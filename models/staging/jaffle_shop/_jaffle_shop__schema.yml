@@ -5,6 +5,7 @@ models:
     description: Customers table
     columns:
       - name: customer_id
+        description: Primary Key
         tests:
           - unique
           - not_null
