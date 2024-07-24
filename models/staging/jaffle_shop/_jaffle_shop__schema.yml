@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: stg_jaffle_shop__customers
+    description: Customers table
     columns:
       - name: customer_id
         tests:
